@@ -5,6 +5,7 @@
     --basic-grey: #888888;
     --basic-grey-2: #666666;
     --basic-black: #000000;
+    --basic-black-2: #283136;
     --basic-red: #FB565A;
     --basic-green: #00CA74;
     --basic-yellow: #EFC849;
@@ -27,7 +28,6 @@
     a {
         text-decoration: none;
 }
-
 /* Main navigation */
 .site-navigation {
     font-size: 16px;
@@ -35,12 +35,37 @@
     color: var(--basic-black);
     list-style: none;
 }
+.site-navigation a {
+  color: var(--basic-black);
+  
+}
 .main_header {
     background-color: var(--basic-white);
 }
 .container {
 background-color: var(--basic-white-1);
-
+}
+.info-1{
+font-size: 45px;
+line-height: 45px;
+color: var(--basic-black);
+}
+.info-2 {
+  font-size: 16px;
+line-height: 24px;
+color: var(--basic-black-2);
+}
+.info-3 {
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-black-2);
+}
+.info_site li {
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-black-2);
 }
 /* User navigation */
 site-navigation a {
@@ -103,3 +128,60 @@ height: 308px;
         font-size: 36px;
         line-height: 36px;
 }
+
+.header_2 {
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+color: var(--basic-black);
+}
+.header_3 {
+  font-size: 16px;
+line-height: 24px;
+color: var(--basic-black-2);
+}
+/* button */
+.button {
+color: var(--basic-white-1);
+background-color: var(--basic-red);
+}
+.green {
+  background-color: var(--basic-green);
+  color: var(--basic-white-1);
+}
+.yellow {
+  background-color: var(--basic-yellow);
+  color: var(--basic-white-1);
+}
+
+/* footer */
+.text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-grey-2);
+  list-style: none;
+}
+.contacts_1 {
+  list-style: none;
+  color: var(--basic-white-1);
+  background-color: var(--basic-red);
+  font-size: 16px;
+line-height: 18px;
+}
+.social-button {
+  list-style: none;
+  color: var(--basic-white-1);
+  background-color: var(--basic-grey);
+}
+
+.footer_footer h3 {
+  font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+}
+.sale {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  }
